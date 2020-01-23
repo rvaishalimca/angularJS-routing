@@ -1,0 +1,49 @@
+html,
+body,
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    flex: 20;
+    border-bottom: 1px solid red;
+}
+
+.sec {
+    flex: 80;
+    border-bottom: 1px solid red;
+}
+
+.head ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(228, 210, 210);
+    color: rgb(16, 22, 4);
+}
+
+.head a:hover {
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(245, 21, 21);
+}
+
+a {
+    text-decoration: none;
+}
+
+.head .active {
+    background-color: red;
+    color: green;
+    font-weight: bold;
+}
